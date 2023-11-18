@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+    ></script>
+    <title>Document</title>
+    <style>
+      /* Body styles */
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: #f8f9fa;
+        color: #313e4b;
+        padding: 20px;
+      }
+
+      /* Card styles */
+      .mt-3 {
+        width: 100%; /* To make sure the card takes full width of its container */
+        margin-top: 1.5rem;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+      }
+
+      /* Card styles */
+      .mt-3 {
+        margin-top: 1.5rem;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+      }
+
+      /* .mt-3:hover {
+        transform: scale(1.02);
+      } */
+
+      /* Heading styles */
+      h6 {
+        color: #0099ff;
+        text-decoration: underline;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      /* Icon styles */
+      i {
+        font-size: 24px;
+        margin-right: 8px;
+        color: #00a2ff;
+      }
+
+      /* Objective and Skill paragraph styles */
+      #objective,
+      #skills {
+        font-size: 18px;
+        margin-top: 10px;
+      }
+
+      /* Progress bar styles */
+      .progress {
+        margin-bottom: 10px;
+      }
+
+      /* Progress bar label styles */
+      .progress-bar::after {
+        content: "%";
+        margin-left: 4px;
+      }
+
+      /* Job title styles */
+      #Job {
+        color: #00a2ff;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+
+      /* Experience and Education paragraph styles */
+      .text-center {
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      /* .mt-3:hover {
+        transform: scale(1.02);
+      } */
+
+      /* Container styles */
+      .layout {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: 20px;
+      }
+      /* Volunteer experience or Leadership styles */
+      #volunteer {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="layout">
+      <div class="mt-3 text-center">
+        <h6>Anjana</h6>
+        <br />
+        <i class="far fa-envelope"></i>
+        <p>Email</p>
+        <i class="fas fa-tty"></i>
+        <p>Telephone</p>
+        <i class="fab fa-linkedin"></i>
+        <p>Linked In</p>
+        <br />
+        <h6 id="objective">Objective</h6>
+        <p class="text-center">
+          HTML element referencing your icon to set one or more icons to the
+          same fixed width. This is great to use when varying icon widths (e.g.
+          a tall but skinny icon atop a wide but short
+        </p>
+        <h6 id="objective">Skill</h6>
+        <p>HTML</p>
+        <div class="progress" style="height: 15px">
+          <div
+            class="progress-bar"
+            role="progressbar"
+            style="width: 90%"
+            aria-valuenow="90"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            90%
+          </div>
+        </div>
+
+        <!-- Example for CSS progress bar with values -->
+        <p>CSS</p>
+        <div class="progress" style="height: 15px">
+          <div
+            class="progress-bar"
+            role="progressbar"
+            style="width: 60%"
+            aria-valuenow="60"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            60%
+          </div>
+        </div>
+
+        <!-- Example for JavaScript progress bar with values -->
+        <p>JavaScript</p>
+        <div class="progress" style="height: 15px">
+          <div
+            class="progress-bar"
+            role="progressbar"
+            style="width: 40%"
+            aria-valuenow="40"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            40%
+          </div>
+        </div>
+      </div>
+      <div class="mt-3 text-center">
+        <h6><a href=file:///C:/Users/Student/Desktop/experience.html>Experience</a></h6>
+        <br />
+        <p id="Job" class="fw-bold">Job Title/Company</p>
+
+        <p class="text-center">
+          Dates from - to <br />
+          Sales are activities related to selling or the number of goods sold in
+          a given targeted time period. The delivery of a service for a cost is
+          also considered a sale. A period during which goods are sold for a
+          reduced price may also be referred to as a "sale"
+        </p>
+
+        <p id="Job" class="fw-bold">Job Title/Company</p>
+
+        <p class="text-center">
+          Dates from - to <br />
+          Sales are activities related to selling or the number of goods sold in
+          a given targeted time period. The delivery of a service for a cost is
+          also considered a sale. A period during which goods are sold for a
+          reduced price may also be referred to as a "sale"
+        </p>
+        <h6>Education</h6>
+        <br />
+        <p id="Job" class="fw-bold">Degree</p>
+        <p class="text-center">
+          school <br />
+          Sales are activities related to selling or the number of goods sold in
+          a given targeted time period. The delivery of a service for a cost is
+        </p>
+        <h6>Volunteer experience or Leadership</h6>
+        <br />
+        <p class="text-center">
+          Sales are activities related to selling or the number of goods sold in
+          a given targeted time period. The delivery of a service for a cost is
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
